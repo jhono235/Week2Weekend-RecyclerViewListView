@@ -9,10 +9,27 @@
 \
 Research\
 1. What is the difference in recyclerView and listView?\
+RecyclerView is newer than Listview\
+Listview uses eager loading of items whereas RecycleView uses LazyLoading\
+RecyclerView enforces Viewholder pattern\
+Recycleriew user Item touch helper\
+RecyclerView user Item Decorators\
+Listview can only be vertical whereas recycler view can be vertical, horizontal, or grid\
+\
 2. Define lazy loading.\
+\
+Lazy loading is RecyclerViews way of loading items for its list. It only creates the required number of views needed to fill the screen plus a couple of more, and keeps populating those same views as the user scrolls. \
+\
 3. What is an item decorator in RecyclerViews?\
+\
+Item Decorators allow spacing, dividers, and highlights between items in the RecyclerView\
+\
+\
 4. What is the View Holder Pattern?\
+The View Holder Pattern allows  access to each list item view without the need of findViewById(), increasing performance\
+\
 5. How do you implement a item touch helper for the RecyclerView?\
+Create an ItemTouchHelper. Callback interface or SimpleCallback class to handle swipes within the view and attach it to the Recyclerview\
 \
 Coding\
 Create an app which is a directory for all the animals in a zoo.\
