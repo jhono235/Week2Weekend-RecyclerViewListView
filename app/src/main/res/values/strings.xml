@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Zoo</string>
+    <string name="welcome_to_zoo_atlanta">Welcome to Zoo Atlanta</string>
+    <string name="animal_categories">Animal Categories</string>
+    <string name="categories">Categories</string>
+    <string name="water_animals">Water Animals</string>
+    <string name="Water_animals">Water Animals</string>
+    <string name="category_title">Category Title</string>
+    <string name="description_of_animal">description of animal</string>
+    <string name="reptiles">Reptiles</string>
+    <string name="play_sound">Play Sound!</string>
+    <string name="birds">Birds</string>
+    <string name="animal_details">Animal Details</string>
+    <string name="jungle_beasts">Jungle Beasts</string>
+
+
+</resources>
